@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <input type="text" 
+               maxlength="10" 
+               size="15" 
+               required 
+               placeholder="YO! Who are You?🤔">  
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+<h2 id="bg-form"></h2>
+<h3 id="ostrich">
+        <img src="sub_img/1.png">
+</h3>
+    <div id="fun-fact-container"></div>
+    <div class="motivation">Keep learning until you know it!<br> If talent isn't your thing, just study harder than the rest!</div>
+    <div id="clock"></div>
+    <form id ="todo-form">
+        <input type="text" required placeholder="💪New Todo" size="8">
+    </form>
+    <div id="weather"> 
+        <span></span>
+        <span></span>
+    </div>
+    <ul id = "todo-list"><br></ul>
+    <script src="js/greeting.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/funfacts.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
